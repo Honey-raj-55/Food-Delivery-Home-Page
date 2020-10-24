@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.b {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 100%;;
+}
+
+.r {
+    font-size: 100%;
+}
+
+body {
+    background-color: bisque ;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.n {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+button {
+    background-color: #F69680;
+    color: #2E1263;
+    padding: 20px 25px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    border: 1px solid #2E1263;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 4px;
+    outline: none;
+}
+
+button:hover {
+    transition: 0.3s;
+    background-color: #2E1263;
+    color: #F69680;
+    text-decoration: underline;
+}
+
+select {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+input {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.t {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.n {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+center {
+    font-family: 'Ubuntu', sans-serif;
+}
