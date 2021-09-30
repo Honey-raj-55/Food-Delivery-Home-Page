@@ -11,15 +11,17 @@
 }
 
 body {
-    background-color: bisque ;
+    background-color: beige ;
 }
 
 h4 {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
 
 h2 {
     font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
 }
 
 .n {
