@@ -1,17 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
 body {
-    background-color: azure;
+    background-color: violet;
 }
 
 .b {
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
-    font-size: 100%;;
+    font-size: 50%;;
 }
 
 .r {
-    font-size: 100%;
+    font-size: 50%;
 }
 
 h4 {
@@ -30,12 +30,12 @@ h2 {
 
 button {
     background-color: beige;
-    color: #2E1263;
+    color: #00cc00;
     padding: 20px 25px;
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
     text-align: center;
-    border: 1px solid #2E1263;
+    border: 1px solid #00cc00;
     text-transform: uppercase;
     text-decoration: none;
     letter-spacing: 4px;
@@ -51,20 +51,25 @@ button:hover {
 
 select {
     font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
 }
 
 input {
     font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
 }
 
 .t {
     font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
 }
 
 .n {
     font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
 }
 
 center {
     font-family: 'Ubuntu', sans-serif;
+    font-size:20px;
 }
