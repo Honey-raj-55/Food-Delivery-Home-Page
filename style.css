@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+body {
+    background-color: azure;
+}
+
 .b {
     font-family: 'Ubuntu', sans-serif;
     font-style: italic;
@@ -8,10 +12,6 @@
 
 .r {
     font-size: 100%;
-}
-
-body {
-    background-color: beige ;
 }
 
 h4 {
@@ -29,7 +29,7 @@ h2 {
 }
 
 button {
-    background-color: #F69680;
+    background-color: beige;
     color: #2E1263;
     padding: 20px 25px;
     font-family: 'Ubuntu', sans-serif;
@@ -44,7 +44,7 @@ button {
 
 button:hover {
     transition: 0.3s;
-    background-color: #2E1263;
+    background-color: yellow;
     color: #F69680;
     text-decoration: underline;
 }
