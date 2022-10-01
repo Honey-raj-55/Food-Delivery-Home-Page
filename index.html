@@ -1,61 +1,89 @@
-<html>
-    <head>
-        <title>Pizza Delivery</title>
-    </head>
-    <body>
-        <header>
-          <div class="b">
-            <center><h1>Best Pizza Ever!</h1></center>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <title>Pizza Delivery</title>
+</head>
+
+<body>
+  <header class="center">
+    <h1>Best Pizza Ever!</h1>
+  </header>
+
+  <main>
+    <section id="contact-form">
+      <form method="POST" action="place-order.php">
+        <div class="delivery">
+          <h4>Delivery</h4>
+          <input name="deliveryMethod" type="radio" value="delivery">Delivery</input>
+          <input name="deliveryMethod" type="radio" value="pickup">Pickup</input>
+        </div>
+
+        <div class="address">
+          <h4>Address</h4>
+          <input name="address1" placeholder="Address line 1" class="lg-input">
+          <input name="address2" placeholder="Address line 2" class="lg-input">
+          <input name="city" placeholder="City" class="sm-input">
+          <input name="state" placeholder="State" class="sm-input">
+          <input name="zip" placeholder="Zip code" class-="sm-input">
+        </div>
+
+        <div class="size">
+          <h4>Size</h4>
+            <select name="size">
+              <option value="12">12" - $13.99</option>
+              <option value="16">16" - $16.99</option>
+              <option value="18">18" - $19.99</option>
+              <option value="72">72" - $149.99</option>
+            </select>
+        </div>
+
+
+        <div class="ingredients">
+          <h4>Ingredients</h4>
+
+          <div>
+            <input name="ingredient" type="checkbox" value="pepperoni">
+            <label for="pepperoni">Pepperoni</label>
           </div>
-        </header>
-        <link rel="stylesheet" href="style.css"/>
-        <main>
 
-          </section>
+          <div>
+            <input name="ingredient" type="checkbox" value="salami">
+            <label for="salami">Salami</label>
+          </div>
 
-            <section id="contact-form">
-              <form method="POST" action="place-order.php">
-                <h4>Delivery</h4>
-                <div class="n">
-                <input name="deliveryMethod" type="radio" value="delivery" />Delivery<br/>
-                <input name="deliveryMethod" type="radio" value="pickup" /> Pickup<br/>
-                </div>
+          <div>
+            <input name="ingredient" type="checkbox" value="sausage">
+            <label for="sausage">Italian Sausage</label>
+          </div>
 
+          <div>
+            <input name="ingredient" type="checkbox" value="peppers">
+            <label for="sausage">Green Peppers</label>
+          </div>
+        </div>
 
-                <h4>Address</h4>
-                <input name="address1" placeholder="Address line 1" class="lg-input" /><br />
-                <input name="address2" placeholder="Address line 2" class="lg-input" /><br />
-                <input name="city" placeholder="City" class="sm-input"/><br />
-                <input name="state" placeholder="State" class="sm-input" /><br />
-                <input name="zip" placeholder="Zip code" class-="sm-input" />
-                <br />
-
-                <h4>Size</h4>
-                  <select name="size">
-                    <option value="12">12" - $13.99</option>
-                    <option value="16">16" - $16.99</option>
-                    <option value="18">18" - $19.99</option>
-                    <option value="72">72" - $149.99</option>
-                  </select>
-
-                <h4>Ingredients</h4>
-                <div class="t">
-                <input name="ingredient" type="checkbox" value="pepperoni"/> Pepperoni<br />
-                <input name="ingredient" type="checkbox" value="salami"/> Salami<br />
-                <input name="ingredient" type="checkbox" value="sausage"/> Italian Sausage<br />
-                <input name="ingredient" type="checkbox" value="peppers"/> Green Peppers<br />
-                </div>
-                <center><button type="submit">Place order</button></center>
-              </form>
-            </section>
+       <button type="submit">Place order</button>
+      </form>
+    </section>
 
 
-            <footer>
-              <center>&copy; 2020<br />
-                <a href="#">Terms of service</a>
-              </center>
-            </footer>
-        </main>
+    <footer>
+      <center>&copy; 2020<br />
+        <a href="#">Terms of service</a>
+      </center>
+    </footer>
+</main>
 
-    </body>
+
+</body>
 </html>
+
+
+
+

@@ -2,44 +2,54 @@
 
 body {
     background-color: aqua;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
-.b {
-    font-family: 'Arial', sans-serif;
+h1 {
+    font-family: 'Ubuntu', sans-serif;
     font-style: italic;
-    font-size: 100%;;
 }
 
-.r {
-    font-size: 100%;
-}
 
+h2,
 h4 {
     font-family: 'Arial', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
-h2 {
-    font-family: 'Arial', sans-serif;
-    font-size: 20px;
+.address,
+.ingredients {
+    display: flex;
+    flex-direction: column;
 }
 
-.n {
-    font-family: 'Ubuntu', sans-serif;
+.address input {
+    margin-bottom: 1rem;
+    padding: .75em;
+    border-radius: 5px;
+    border: none;
+}
+
+.ingredients div {
+    margin-bottom: .75rem;
 }
 
 button {
     background-color: beige;
     color: #2E1263;
-    padding: 20px 25px;
+    padding: 1.25em 2em;
     font-family: 'Ubuntu', sans-serif;
-    font-size: 20px;
-    text-align: center;
+    font-size: 1.25rem;
     border: 1px solid #2E1263;
     text-transform: uppercase;
-    text-decoration: none;
     letter-spacing: 4px;
     outline: none;
+
+    margin: 1rem 0;
 }
 
 button:hover {
@@ -47,24 +57,4 @@ button:hover {
     background-color: yellow;
     color: #F69680;
     text-decoration: underline;
-}
-
-select {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-input {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.t {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-.n {
-    font-family: 'Ubuntu', sans-serif;
-}
-
-center {
-    font-family: 'Ubuntu', sans-serif;
 }
